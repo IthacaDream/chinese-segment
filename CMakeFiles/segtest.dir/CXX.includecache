@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vv/codes/chinese-segment/ICTCLAS50.h
+
+/home/vv/codes/chinese-segment/segment.cc
+segment.h
+/home/vv/codes/chinese-segment/segment.h
+
+/home/vv/codes/chinese-segment/segment.h
+iostream
+-
+fstream
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+string
+-
+pthread.h
+-
+map
+-
+vector
+-
+set
+-
+ICTCLAS50.h
+/home/vv/codes/chinese-segment/ICTCLAS50.h
+
+/home/vv/codes/chinese-segment/test.cc
+iostream
+-
+segment.h
+/home/vv/codes/chinese-segment/segment.h
+

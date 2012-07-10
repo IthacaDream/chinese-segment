@@ -1,0 +1,1 @@
+g++       CMakeFiles/segtest.dir/segment.cc.o CMakeFiles/segtest.dir/test.cc.o  -o segtest -rdynamic -L. -lpthread -lICTCLAS50 -Wl,-rpath,. 
