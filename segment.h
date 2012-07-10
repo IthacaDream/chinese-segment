@@ -15,20 +15,20 @@
 
 using namespace std;
 
-struct SegRes{
+struct SegRes {
   string word;
   string type;
   unsigned int times;
 };
 
-class CSegment
-{
+class CSegment {
 
 public:
-  
-  void segment(const string&, vector<SegRes>&, eCodeType type = CODE_TYPE_GB, int stop_flag = 1);
+
+  void segment(const string&, vector<SegRes>&, eCodeType type = CODE_TYPE_GB,
+      int stop_flag = 1);
   static CSegment& getInstance();
-  
+
 private:
   CSegment();
   ~CSegment();
@@ -36,7 +36,7 @@ private:
   CSegment& operator=(const CSegment&);
   int stopInit(const char*);
   bool isStopWord(const std::string&);
-  
+
 private:
   char *pResult; //buffer  
   static CSegment* instance;
