@@ -66,7 +66,6 @@ void CSegment::segment(const string& text, vector<SegRes>& result,
     if (pp == NULL) { //space
       ;
     } else {
-      //pp[0]='\0';
       while (pword[0] == '\r' || pword[0] == '\n')
         ++pword;
       ++unique_words[pword];
