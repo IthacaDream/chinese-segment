@@ -10,7 +10,7 @@ int main()
   vector<SegRes> result;
   result.clear();
   
-  CSegment::getInstance().segment(text,result); //do segment
+  CSegment::get_instance().segment(text,result); //do segment
   
   vector<SegRes>::iterator it = result.begin();
   for(;it != result.end(); ++it)
